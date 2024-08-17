@@ -1,0 +1,17 @@
+{
+    "dependencies": {
+        "bootstrap": "^5.3.3",
+        "vanjs-core": "^1.5.1",
+        "vanjs-router": "^2.0.6",
+        "vite": "^5.4.0"
+    },
+    "type": "module",
+    "devDependencies": {
+        "@types/bootstrap": "^5.2.10"
+    },
+    "scripts": {
+        "build": "vite build",
+        "preview": "vite preview",
+        "dev": "vite"
+    }
+}

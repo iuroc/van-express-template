@@ -1,0 +1,20 @@
+{
+  "name": "ruanzhu-v8",
+  "version": "1.0.0",
+  "description": "第八代软著生产系统",
+  "scripts": {
+    "dev:client": "pnpm --silent --prefix client dev",
+    "dev:server": "pnpm --silent --prefix server dev",
+    "build:client": "pnpm --silent --prefix client build",
+    "build:server": "pnpm --silent --prefix server build",
+    "build": "concurrently \"pnpm build:client\" \"pnpm build:server\"",
+    "start": "pnpm --prefix server start",
+    "dev": "concurrently \"pnpm dev:client\" \"pnpm dev:server\""
+  },
+  "author": "iuroc",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
